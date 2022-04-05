@@ -1,19 +1,19 @@
 #### CS 110
-# Chapter 4 - Lab - Functions
-
-### [Assignment Description](https://docs.google.com/document/d/1V20D_upUX4MO8YmskKlRB25Yu2pCEv3-h8z4EAfrSno/edit?usp=sharing)
+# Midterm - Python Programming
 
 ***
 
 _Replace anything surrounded by the `< >` symbols._
 
 ## SUMMARY:
- < Provide a short description of your program's functionality. No more than a couple sentences. >
+What did you clean up?:
+I edited the Window and Axis functions to have parameters so that they could be changed to the user's preference. 
 
-## GRACE DAYS
-Grace days used for this assignment: 5
+Summary of function(s) added:
+I added a function to draw a circle given a random radius, and a function to calculate the area of said circle.
 
-Grace days remaining: 5/5
+Summary of Feature Added:
+I added a feature that allows users to guess the area of the circle drawn. Afterwards, the percent error is given.
 
 ## KNOWN BUGS AND INCOMPLETE PARTS:
  None
