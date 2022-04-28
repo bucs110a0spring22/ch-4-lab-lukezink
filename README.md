@@ -6,14 +6,7 @@
 _Replace anything surrounded by the `< >` symbols._
 
 ## SUMMARY:
-What did you clean up?:
-I edited the Window and Axis functions to have parameters so that they could be changed to the user's preference. 
-
-Summary of function(s) added:
-I added a function to draw a circle given a random radius, and a function to calculate the area of said circle.
-
-Summary of Feature Added:
-I added a feature that allows users to guess the area of the circle drawn. Afterwards, the percent error is given.
+Uses turtle to create a background and graphs of various trigonometric functions.
 
 ## KNOWN BUGS AND INCOMPLETE PARTS:
  None
@@ -22,4 +15,4 @@ I added a feature that allows users to guess the area of the circle drawn. After
  None
 
 ## MISCELLANEOUS COMMENTS:
- None
+  Used my chapter 4 lab for the midterm, and when going back to make the corrections I accidentally reverted to this repo, that's why it says midterm at the top and not chapter 4.

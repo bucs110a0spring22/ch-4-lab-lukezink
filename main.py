@@ -76,39 +76,6 @@ def drawTangentCurve(dart):
     dart.goto(x,y)
   dart.clear()
 
-def drawCircle(dart, rad=10):
-  """
-	Draws a circle.
-	Takes a turtle, and a integer radius, and draws a circle of the given radius.
-	"""
-  dart.penup()
-  dart.goto(0,-rad)
-  dart.pendown()
-  dart.circle(rad)
-
-def getArea(rad=10):
-  """
-	Calculates the area of the circle.
-	Takes an integer as the radius to calculate the area.
-	Returns a float that is the area of the circle.
-	"""
-  PI = math.pi
-  area = (rad^2)*PI
-  return area
-
-def guessArea(area, guess):
-  """
-	Takes the area and a guess and calculates the percent error.
-  Takes the calculated area (float) and guess (int)
-	Returns the area as a float value.
-	"""
-  
-  if guess==area:
-    print("Your guess has 0% error! Congratulations!")
-  else:
-    percent = abs(((area-guess)/guess)*100)
-    print("Your guess has about a " + str(percent) + " percent error. Try again next time!")
-
 ##########  Do Not Alter Any Code Past Here ########
 def main():
     #Part A
@@ -126,13 +93,5 @@ def main():
     drawSineCurve(dart)
     drawCosineCurve(dart)
     drawTangentCurve(dart)
-
-    #Midterm
-    setupWindow(wn, -100,-100,100,100)
-    radius = int(random.randrange(10,100,1))
-    drawCircle(dart, radius)
-    area = int(getArea(radius))
-    guess = int(input("Please guess the area of the circle: "))
-    guessArea(guess, area)
     wn.exitonclick()
 main()
